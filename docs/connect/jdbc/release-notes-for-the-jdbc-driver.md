@@ -58,7 +58,7 @@ Der Microsoft JDBC-Treiber 8.2 für SQL Server ist jetzt zusätzlich zu JDK 11
 
 | Änderungen an temporalen Datentypen | Details |
 | :---------- | :------ |
-| Die Leistung des Microsoft JDBC-Treibers 8.2 für SQL Server beim Abrufen temporaler Datentypen aus SQL Server wurde verbessert. | Durch diese Änderung wird die unnötige Konvertierung temporaler Datentypen beseitigt, indem die Verwendung von „java.util.Calender“ nach Möglichkeit vermieden wird. |
+| Die Leistung des Microsoft JDBC-Treibers 8.2 für SQL Server beim Abrufen temporaler Datentypen aus SQL Server wurde verbessert. | Durch diese Änderung wird die unnötige Konvertierung temporaler Datentypen beseitigt, indem die Verwendung von „java.util.Calendar“ nach Möglichkeit vermieden wird. |
 | Im Folgenden finden Sie eine Liste der temporalen Datentypen, die von dieser Leistungsverbesserung betroffen sind. Hierbei steht zunächst der SQL Server-Datentyp und dann die entsprechende Java-Zuordnung. | date (java.sql.Date), datetime (java.sql.Timestamp), datetime2 (java.sql.Timestamp), smalldatetime (java.sql.Timestamp) und time (java.sql.Time) |
 | &nbsp; | &nbsp; |
 
